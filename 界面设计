@@ -1,0 +1,18 @@
+# JAVA-
+共享代码
+import javax.swing.*;
+
+import java.awt.event.*;
+public class UI {
+public static void main(String[] args){
+	JFrame frame=new JFrame("学生成绩管理");
+	final JLabel label1=new JLabel("hello");
+	frame.getContentPane().add(label1);
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	frame.setSize(700,500);
+	frame.setVisible(true);
+
+}
+}
+
+
